@@ -38,11 +38,9 @@ class CardiacDataset(torch.utils.data.Dataset):
         Augments slice and segmentation mask in the exact same way
         Note the manual seed initialization
         """
-        ###################IMPORTANT###################
-        # Fix for https://discuss.pytorch.org/t/dataloader-workers-generate-the-same-random-augmentations/28830/2
+
         random_seed = torch.randint(0, 1000000, (1,))[0].item()
         imgaug.seed(random_seed)
-        #####################################################
         mask = SegmentationMapsOnImage(mask, mask.shape)
         slice_aug, mask_aug = self.augment_params(image=slice, segmentation_maps=mask)
         mask_aug = mask_aug.get_arr()
