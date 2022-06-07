@@ -52,10 +52,6 @@ Computed Dice-score: 0.93
 ## Visualization
 We will load a test subject from the dataset and estimate the position of the left atrium.
 After preprocessing the scan and croping 32 px from top, bottom, back and front, the results will be like this: <br/>
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=fo78Vj9YUXw" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fo78Vj9YUXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!-- [![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/fo78Vj9YUXw/mqdefault.webp?sqp=CMjq_pQG&rs=AOn4CLAEHWNPNVSieYIG7-SBOcTD-M9nLw)](https://www.youtube.com/watch?v=fo78Vj9YUXw) -->
 
