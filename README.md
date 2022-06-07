@@ -47,5 +47,5 @@ Computed Dice-score: 0.93
 ## Visualization
 We will load a test subject from the dataset and estimate the position of the left atrium.
 After preprocessing the scan and croping 32 px from top, bottom, back and front, the results will be like this: <br/>
-![alt text](https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/Images_4.mp4?raw=true)
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/fo78Vj9YUXw/mqdefault.webp?sqp=CMjq_pQG&rs=AOn4CLAEHWNPNVSieYIG7-SBOcTD-M9nLw)](https://www.youtube.com/watch?v=fo78Vj9YUXw)
 
