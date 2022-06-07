@@ -4,9 +4,6 @@ The data is provided by the medical segmentation decathlon (http://medicaldecath
 
 For inspecting the data we use the sagittal view for this task as it provides the "nicest" images<br />
 We import HTML from IPython.display to create a video of the volume. Example: <br/>
-
-![alt text]([https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/Images_1.mp4?raw=true](https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/Images_1.mp4?raw=true))
-
 ![alt text](https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/Images_1.mp4?raw=true)
 
 ## Preprocessing
