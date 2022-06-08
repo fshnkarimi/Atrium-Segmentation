@@ -5,6 +5,7 @@ The data is provided by the medical segmentation decathlon (http://medicaldecath
 For inspecting the data we use the sagittal view for this task as it provides the "nicest" images<br />
 We import HTML from IPython.display to create a video of the volume. Example: <br/>
 ![alt text](https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/images_1.gif?raw=true)
+
 ## Preprocessing
 We perform the following preprocessing steps:
 
@@ -46,6 +47,4 @@ Computed Dice-score: 0.93
 ## Visualization
 We will load a test subject from the dataset and estimate the position of the left atrium.
 After preprocessing the scan and croping 32 px from top, bottom, back and front, the results will be like this: <br/>
-
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/fo78Vj9YUXw/mqdefault.webp?sqp=CMjq_pQG&rs=AOn4CLAEHWNPNVSieYIG7-SBOcTD-M9nLw)](https://www.youtube.com/watch?v=fo78Vj9YUXw)
-
+![alt text](https://github.com/fshnkarimi/Atrium-Segmentation/blob/main/Images/images_4.gif?raw=true)
